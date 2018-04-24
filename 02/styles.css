@@ -1,0 +1,71 @@
+body{
+    background: rgb(195, 195, 195);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-size:32px;
+    font-weight: 400;
+}
+
+p{
+    padding-top:20px;
+    line-height: 1.6;
+    font-size:12px;
+}
+
+.main{
+    width:80%;
+    height:700px;
+    background: url("img/bg.jpg");
+    background-size: cover;
+    margin:30px auto;
+    box-shadow:0px 1px 4px #999;
+    margin-bottom:40px;
+    overflow:hidden;
+}
+
+.top-row{
+    height:20%;
+    padding:30px;
+    text-align: right;
+}
+
+.two-col{
+    float:left;
+    width:50%;
+    height: 100%;
+    color:#fff;
+    text-align: center;
+    text-shadow:0px 0px 0px #000;
+}
+
+.green{
+    background:rgba(12, 241, 192, 0.7);
+}
+
+.button{
+    font-size:12px;
+    letter-spacing: 0.02rem;
+    border-radius:18px;
+    border:2px solid #eee;
+    padding:8px 16px;
+    margin:16px;
+    cursor: pointer;
+}
+
+.button .fa{
+    margin-right:10px;
+}
+
+.button:hover{
+    background:rgba(255,255,255,0.2);
+}
+
+.small-button{
+    border:1px solid #eee;
+    padding:8px 16px;
+    font-size:10px;
+    margin:0px 0px 0px 15px;
+}
