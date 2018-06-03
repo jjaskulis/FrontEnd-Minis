@@ -1,0 +1,190 @@
+@font-face{
+    font-family: 'Goku';
+    src: url('/fonts/goku_stencil.ttf');
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background: rgb(247, 244, 244);
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2{
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    max-width: 25rem; 
+    background: #fff;
+    box-shadow: 0px 20px 100px rgba( 0, 0, 0, 0.3);
+}
+
+.card__head{
+    font-size: 1.3rem;
+    padding: 1.5rem 2rem; 
+    display: flex;
+    justify-content: space-between;
+}
+.card__head i{
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.card__head i:hover{
+    opacity: 0.5;
+}
+
+.card__img{
+    max-height: 15rem;
+    display: flex;
+    position:relative;
+    width: 100%;
+}
+.card__img img{
+    max-width: 100%;
+}
+.card__img span{
+    font-family: 'Goku', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.71rem;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    color: #fff;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__body{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    padding: 2rem; 
+}
+
+.card__body h2{
+    font-size: 1.69rem;
+    line-height: 2.197rem;
+    max-width: 18rem;
+}
+
+.card__social{
+    margin-top:auto;
+    font-size: 0.8rem;
+    color: #b3b3b3;
+    padding: 0rem 2rem;
+}
+
+.card__social i{
+    font-size: 1rem;
+    padding-right: 0.3rem;
+}
+
+.card__social span{
+    cursor: pointer;
+    padding-right: 1.5rem;
+    transition: all 0.2s ease-in;
+
+}
+
+.card__social span:hover{
+    color: #222;
+}
+
+.card__footer{
+    bottom:0;
+    font-size: 1.1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.card__footer i{
+    padding-left: 0.5rem;
+}
+
+span.orange{
+    color: #ff6b08;
+}
+
+span.orange + span{
+    margin-bottom: 0.3rem;
+    margin-left: 0.6rem;
+    display: inline-block;
+    height: 0.15rem;
+    width: 8rem;
+    background: linear-gradient(to right, #ff6b08,#fff);
+}
+
+span.yellow{
+    color: #ffbd08;
+}
+
+span.yellow + span{
+    margin-bottom: 0.3rem;
+    margin-left: 0.6rem;
+    display: inline-block;
+    height: 0.15rem;
+    width: 8rem;
+    background: linear-gradient(to right, #ffbd08,#fff);
+}
+
+span.grey{
+    color: #b3b3b3;
+}
+
+.btn{
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.btn-ghost{
+    background: none;
+    color: #b3b3b3;
+    border: 1px solid #b3b3b3;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.btn-ghost:hover{
+    color: #222;
+    border: 1px solid #222;
+}
+
+.btn-play {
+    top: 90%;
+    left: 75%;
+    position: absolute;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    border:none;
+    border-radius: 10rem;
+    box-shadow: 0px 1px 20px rgba( 0, 0, 0, 0.25);
+}
+
+.btn-play i{
+    font-size: 0.6rem;
+}
+
+.btn-play:hover{
+    transform: scale(1.2);
+}
+
+.btn-orange {
+    background: #ff6b08;
+}
+
+.btn-grey{
+    background: #222;
+}
